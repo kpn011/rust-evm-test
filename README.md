@@ -11,4 +11,5 @@ Automated EVM transaction sender for Sepolia testnet with random recipient selec
 
 ### 1. Clone Repository
 ```bash
+https://github.com/kpn011/rust-evm-test.git
 cd rust-evm-auto-sender
