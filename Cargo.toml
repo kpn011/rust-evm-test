@@ -1,0 +1,16 @@
+[package]
+name = "rust-evm-auto-sender"
+version = "0.1.0"
+edition = "2021"
+authors = ["kpn01"]
+description = "Auto send EVM transactions on Sepolia"
+license = "MIT"
+
+[dependencies]
+ethers = { version = "2.0", features = ["rustls"] }
+tokio = { version = "1.0", features = ["full"] }
+dotenv = "0.15"
+hex = "0.4"
+rand = "0.8"
+serde_json = "1.0"
+thiserror = "1.0"
