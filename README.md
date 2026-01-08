@@ -13,3 +13,24 @@ Automated EVM transaction sender for Sepolia testnet with random recipient selec
 ```bash
 https://github.com/kpn011/rust-evm-test.git
 cd rust-evm-auto-sender
+```
+# edit env 
+```bash
+cp .env.example .env
+nano .env
+```
+# Install Rust (if not installed)
+
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source $HOME/.cargo/env
+```
+
+# Build & Run
+```bash
+cargo build --release
+```
+```bash
+# Run the bot
+cargo run --release
+```
